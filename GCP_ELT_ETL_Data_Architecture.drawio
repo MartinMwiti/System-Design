@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T09:08:01.463Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YPwfKjXS_6z9SI4kH0Kj" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T11:35:26.906Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IF4vLwpIUPKaiylnYkuq" version="22.1.5" type="github">
   <diagram name="Page-1" id="N3WZunzwXIaeDYp0I-YL">
-    <mxGraphModel dx="1137" dy="2119" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1589" dy="2153" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,6 +102,9 @@
         </mxCell>
         <mxCell id="0Ng6I6oco_0Fc2acD2ov-30" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;# Enhances security and manages traffic between &lt;br&gt;dbs &amp;amp; the streaming service (Cloud Datastream)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="-35" y="-868" width="239" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="1zphvdrA46w6vMlSNwn0-3" value="- Microservices Databases:&#xa;  - GCP: Cloud SQL&#xa;  - AWS: Amazon RDS or Amazon Aurora (for relational databases)&#xa;&#xa;- Compute Engine VM Instance (as a proxy server):&#xa;  - GCP: Compute Engine VM Instance&#xa;  - AWS: EC2 Instance&#xa;&#xa;- Cloud Datastream (for data ingestion and streaming):&#xa;  - GCP: Cloud Datastream&#xa;  - AWS: AWS DMS (Database Migration Service) for data migration, Amazon Kinesis Data Streams for real-time data streaming&#xa;&#xa;- Cloud Composer (Apache Airflow):&#xa;  - GCP: Cloud Composer&#xa;  - AWS: Amazon Managed Workflows for Apache Airflow (MWAA)&#xa;&#xa;- BigQuery (Data Warehouse):&#xa;  - GCP: BigQuery&#xa;  - AWS: Amazon Redshift&#xa;&#xa;- Cloud Storage (for raw data storage):&#xa;  - GCP: Cloud Storage&#xa;  - AWS: Amazon S3 (Simple Storage Service)&#xa;&#xa;- Shared VPC:&#xa;  - GCP: Shared VPC&#xa;  - AWS: AWS Resource Access Manager (for sharing resources across accounts) with VPC Peering (for network connectivity)&#xa;&#xa;- Subnets:&#xa;  - GCP: Subnets within VPC&#xa;  - AWS: Subnets within Amazon VPC" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-149" y="-578" width="550" height="497" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
